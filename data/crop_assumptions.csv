@@ -1,0 +1,4 @@
+crop,sas_crops,cycle_days_standard,cycle_days_short,min_cycle_rain_mm,note
+Maize,Maize,120,90,450,ASSUMPTION - verify with RAB/FAO; short-cycle hybrids are marketed at roughly 85-90 days
+Beans,Bush bean|Climbing bean,85,70,300,ASSUMPTION - verify with RAB/FAO; climbing beans take longer than bush beans
+Irish potato,Irish potato,110,90,400,ASSUMPTION - verify with RAB/FAO
