@@ -52,10 +52,10 @@ Kinyarwanda interface, sector-level rainfall, validation against Meteo Rwanda st
 ## Repository layout
 ```
 app.py                       Streamlit app
+README.md
 src/planting.py              onset, suitability, advice logic
 scripts/prepare_sas.py       SAS Excel -> tidy CSV
 scripts/fetch_rainfall.py    Open-Meteo download
 data/                        districts, crop assumptions, SAS CSVs, rainfall (after fetch), raw Excel
 ```
-
 
