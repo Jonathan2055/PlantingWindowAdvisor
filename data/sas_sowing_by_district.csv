@@ -1,0 +1,497 @@
+season,district,period_order,period,mid_date,pct
+A,Nyarugenge,0,Before 1 Sep,2001-08-25,1.7
+A,Nyarugenge,1,1-15 Sep,2001-09-08,4.19
+A,Nyarugenge,2,16-30 Sep,2001-09-23,18.3
+A,Nyarugenge,3,1-15 Oct,2001-10-08,28.45
+A,Nyarugenge,4,16-31 Oct,2001-10-24,16.48
+A,Nyarugenge,5,After 31 Oct,2001-11-10,4.75
+A,Nyarugenge,6,Other season,,26.14
+A,Gasabo,0,Before 1 Sep,2001-08-25,7.96
+A,Gasabo,1,1-15 Sep,2001-09-08,24.74
+A,Gasabo,2,16-30 Sep,2001-09-23,19.21
+A,Gasabo,3,1-15 Oct,2001-10-08,13.9
+A,Gasabo,4,16-31 Oct,2001-10-24,2.78
+A,Gasabo,5,After 31 Oct,2001-11-10,3.33
+A,Gasabo,6,Other season,,28.08
+A,Kicukiro,0,Before 1 Sep,2001-08-25,1.86
+A,Kicukiro,1,1-15 Sep,2001-09-08,5.36
+A,Kicukiro,2,16-30 Sep,2001-09-23,7.42
+A,Kicukiro,3,1-15 Oct,2001-10-08,49.06
+A,Kicukiro,4,16-31 Oct,2001-10-24,5.12
+A,Kicukiro,5,After 31 Oct,2001-11-10,2.09
+A,Kicukiro,6,Other season,,29.09
+A,Nyanza,0,Before 1 Sep,2001-08-25,4.89
+A,Nyanza,1,1-15 Sep,2001-09-08,8.38
+A,Nyanza,2,16-30 Sep,2001-09-23,10.51
+A,Nyanza,3,1-15 Oct,2001-10-08,34.42
+A,Nyanza,4,16-31 Oct,2001-10-24,11.77
+A,Nyanza,5,After 31 Oct,2001-11-10,12.97
+A,Nyanza,6,Other season,,17.05
+A,Gisagara,0,Before 1 Sep,2001-08-25,3.72
+A,Gisagara,1,1-15 Sep,2001-09-08,10.34
+A,Gisagara,2,16-30 Sep,2001-09-23,22.16
+A,Gisagara,3,1-15 Oct,2001-10-08,33.58
+A,Gisagara,4,16-31 Oct,2001-10-24,6.01
+A,Gisagara,5,After 31 Oct,2001-11-10,5.69
+A,Gisagara,6,Other season,,18.49
+A,Nyaruguru,0,Before 1 Sep,2001-08-25,15.63
+A,Nyaruguru,1,1-15 Sep,2001-09-08,14.8
+A,Nyaruguru,2,16-30 Sep,2001-09-23,11.72
+A,Nyaruguru,3,1-15 Oct,2001-10-08,17.66
+A,Nyaruguru,4,16-31 Oct,2001-10-24,11.38
+A,Nyaruguru,5,After 31 Oct,2001-11-10,12.66
+A,Nyaruguru,6,Other season,,16.15
+A,Huye,0,Before 1 Sep,2001-08-25,8.94
+A,Huye,1,1-15 Sep,2001-09-08,14.75
+A,Huye,2,16-30 Sep,2001-09-23,12.28
+A,Huye,3,1-15 Oct,2001-10-08,26.68
+A,Huye,4,16-31 Oct,2001-10-24,6.64
+A,Huye,5,After 31 Oct,2001-11-10,11.78
+A,Huye,6,Other season,,18.92
+A,Nyamagabe,0,Before 1 Sep,2001-08-25,12.77
+A,Nyamagabe,1,1-15 Sep,2001-09-08,18.98
+A,Nyamagabe,2,16-30 Sep,2001-09-23,16.51
+A,Nyamagabe,3,1-15 Oct,2001-10-08,17.12
+A,Nyamagabe,4,16-31 Oct,2001-10-24,8.01
+A,Nyamagabe,5,After 31 Oct,2001-11-10,11.28
+A,Nyamagabe,6,Other season,,15.33
+A,Ruhango,0,Before 1 Sep,2001-08-25,7.23
+A,Ruhango,1,1-15 Sep,2001-09-08,9.23
+A,Ruhango,2,16-30 Sep,2001-09-23,21.4
+A,Ruhango,3,1-15 Oct,2001-10-08,23.34
+A,Ruhango,4,16-31 Oct,2001-10-24,8.89
+A,Ruhango,5,After 31 Oct,2001-11-10,7.64
+A,Ruhango,6,Other season,,22.27
+A,Muhanga,0,Before 1 Sep,2001-08-25,10.3
+A,Muhanga,1,1-15 Sep,2001-09-08,14.53
+A,Muhanga,2,16-30 Sep,2001-09-23,13.12
+A,Muhanga,3,1-15 Oct,2001-10-08,13.59
+A,Muhanga,4,16-31 Oct,2001-10-24,5.85
+A,Muhanga,5,After 31 Oct,2001-11-10,12.69
+A,Muhanga,6,Other season,,29.92
+A,Kamonyi,0,Before 1 Sep,2001-08-25,4.07
+A,Kamonyi,1,1-15 Sep,2001-09-08,14.37
+A,Kamonyi,2,16-30 Sep,2001-09-23,22.31
+A,Kamonyi,3,1-15 Oct,2001-10-08,24.86
+A,Kamonyi,4,16-31 Oct,2001-10-24,5.92
+A,Kamonyi,5,After 31 Oct,2001-11-10,8.84
+A,Kamonyi,6,Other season,,19.64
+A,Karongi,0,Before 1 Sep,2001-08-25,8.08
+A,Karongi,1,1-15 Sep,2001-09-08,18.96
+A,Karongi,2,16-30 Sep,2001-09-23,20.78
+A,Karongi,3,1-15 Oct,2001-10-08,11.39
+A,Karongi,4,16-31 Oct,2001-10-24,4.46
+A,Karongi,5,After 31 Oct,2001-11-10,9.65
+A,Karongi,6,Other season,,26.67
+A,Rutsiro,0,Before 1 Sep,2001-08-25,19.24
+A,Rutsiro,1,1-15 Sep,2001-09-08,23.54
+A,Rutsiro,2,16-30 Sep,2001-09-23,18.77
+A,Rutsiro,3,1-15 Oct,2001-10-08,8.96
+A,Rutsiro,4,16-31 Oct,2001-10-24,1.38
+A,Rutsiro,5,After 31 Oct,2001-11-10,4.37
+A,Rutsiro,6,Other season,,23.74
+A,Rubavu,0,Before 1 Sep,2001-08-25,30.45
+A,Rubavu,1,1-15 Sep,2001-09-08,25.93
+A,Rubavu,2,16-30 Sep,2001-09-23,11.81
+A,Rubavu,3,1-15 Oct,2001-10-08,9.2
+A,Rubavu,4,16-31 Oct,2001-10-24,3.49
+A,Rubavu,5,After 31 Oct,2001-11-10,4.65
+A,Rubavu,6,Other season,,14.46
+A,Nyabihu,0,Before 1 Sep,2001-08-25,25.82
+A,Nyabihu,1,1-15 Sep,2001-09-08,23.18
+A,Nyabihu,2,16-30 Sep,2001-09-23,21.53
+A,Nyabihu,3,1-15 Oct,2001-10-08,5.15
+A,Nyabihu,4,16-31 Oct,2001-10-24,2.49
+A,Nyabihu,5,After 31 Oct,2001-11-10,10.86
+A,Nyabihu,6,Other season,,10.97
+A,Ngororero,0,Before 1 Sep,2001-08-25,18.5
+A,Ngororero,1,1-15 Sep,2001-09-08,24.17
+A,Ngororero,2,16-30 Sep,2001-09-23,13.23
+A,Ngororero,3,1-15 Oct,2001-10-08,8.12
+A,Ngororero,4,16-31 Oct,2001-10-24,6.05
+A,Ngororero,5,After 31 Oct,2001-11-10,9.06
+A,Ngororero,6,Other season,,20.88
+A,Rusizi,0,Before 1 Sep,2001-08-25,6.93
+A,Rusizi,1,1-15 Sep,2001-09-08,11.23
+A,Rusizi,2,16-30 Sep,2001-09-23,25.37
+A,Rusizi,3,1-15 Oct,2001-10-08,31.8
+A,Rusizi,4,16-31 Oct,2001-10-24,5.42
+A,Rusizi,5,After 31 Oct,2001-11-10,3.27
+A,Rusizi,6,Other season,,15.97
+A,Nyamasheke,0,Before 1 Sep,2001-08-25,9.91
+A,Nyamasheke,1,1-15 Sep,2001-09-08,19.08
+A,Nyamasheke,2,16-30 Sep,2001-09-23,25.09
+A,Nyamasheke,3,1-15 Oct,2001-10-08,13.14
+A,Nyamasheke,4,16-31 Oct,2001-10-24,5.56
+A,Nyamasheke,5,After 31 Oct,2001-11-10,4.45
+A,Nyamasheke,6,Other season,,22.76
+A,Rulindo,0,Before 1 Sep,2001-08-25,16.96
+A,Rulindo,1,1-15 Sep,2001-09-08,27.05
+A,Rulindo,2,16-30 Sep,2001-09-23,19.62
+A,Rulindo,3,1-15 Oct,2001-10-08,10.01
+A,Rulindo,4,16-31 Oct,2001-10-24,1.59
+A,Rulindo,5,After 31 Oct,2001-11-10,4.73
+A,Rulindo,6,Other season,,20.03
+A,Gakenke,0,Before 1 Sep,2001-08-25,17.65
+A,Gakenke,1,1-15 Sep,2001-09-08,22.81
+A,Gakenke,2,16-30 Sep,2001-09-23,10.93
+A,Gakenke,3,1-15 Oct,2001-10-08,7.77
+A,Gakenke,4,16-31 Oct,2001-10-24,4.65
+A,Gakenke,5,After 31 Oct,2001-11-10,15.35
+A,Gakenke,6,Other season,,20.84
+A,Musanze,0,Before 1 Sep,2001-08-25,26.62
+A,Musanze,1,1-15 Sep,2001-09-08,28.39
+A,Musanze,2,16-30 Sep,2001-09-23,11.34
+A,Musanze,3,1-15 Oct,2001-10-08,6.27
+A,Musanze,4,16-31 Oct,2001-10-24,1.93
+A,Musanze,5,After 31 Oct,2001-11-10,2.72
+A,Musanze,6,Other season,,22.73
+A,Burera,0,Before 1 Sep,2001-08-25,26.32
+A,Burera,1,1-15 Sep,2001-09-08,23.79
+A,Burera,2,16-30 Sep,2001-09-23,12.89
+A,Burera,3,1-15 Oct,2001-10-08,11.39
+A,Burera,4,16-31 Oct,2001-10-24,6.11
+A,Burera,5,After 31 Oct,2001-11-10,6.96
+A,Burera,6,Other season,,12.53
+A,Gicumbi,0,Before 1 Sep,2001-08-25,14.04
+A,Gicumbi,1,1-15 Sep,2001-09-08,24.83
+A,Gicumbi,2,16-30 Sep,2001-09-23,21.51
+A,Gicumbi,3,1-15 Oct,2001-10-08,8.51
+A,Gicumbi,4,16-31 Oct,2001-10-24,3.58
+A,Gicumbi,5,After 31 Oct,2001-11-10,9.73
+A,Gicumbi,6,Other season,,17.81
+A,Rwamagana,0,Before 1 Sep,2001-08-25,2.51
+A,Rwamagana,1,1-15 Sep,2001-09-08,13.98
+A,Rwamagana,2,16-30 Sep,2001-09-23,22.52
+A,Rwamagana,3,1-15 Oct,2001-10-08,22.65
+A,Rwamagana,4,16-31 Oct,2001-10-24,3.31
+A,Rwamagana,5,After 31 Oct,2001-11-10,8.23
+A,Rwamagana,6,Other season,,26.79
+A,Nyagatare,0,Before 1 Sep,2001-08-25,18.21
+A,Nyagatare,1,1-15 Sep,2001-09-08,40.64
+A,Nyagatare,2,16-30 Sep,2001-09-23,9.76
+A,Nyagatare,3,1-15 Oct,2001-10-08,5.03
+A,Nyagatare,4,16-31 Oct,2001-10-24,0.41
+A,Nyagatare,5,After 31 Oct,2001-11-10,2.51
+A,Nyagatare,6,Other season,,23.44
+A,Gatsibo,0,Before 1 Sep,2001-08-25,5.87
+A,Gatsibo,1,1-15 Sep,2001-09-08,26.64
+A,Gatsibo,2,16-30 Sep,2001-09-23,24.68
+A,Gatsibo,3,1-15 Oct,2001-10-08,9.05
+A,Gatsibo,4,16-31 Oct,2001-10-24,1.68
+A,Gatsibo,5,After 31 Oct,2001-11-10,2.55
+A,Gatsibo,6,Other season,,29.53
+A,Kayonza,0,Before 1 Sep,2001-08-25,3.31
+A,Kayonza,1,1-15 Sep,2001-09-08,15.63
+A,Kayonza,2,16-30 Sep,2001-09-23,18.43
+A,Kayonza,3,1-15 Oct,2001-10-08,29.42
+A,Kayonza,4,16-31 Oct,2001-10-24,5.33
+A,Kayonza,5,After 31 Oct,2001-11-10,4.23
+A,Kayonza,6,Other season,,23.64
+A,Kirehe,0,Before 1 Sep,2001-08-25,1.99
+A,Kirehe,1,1-15 Sep,2001-09-08,10.98
+A,Kirehe,2,16-30 Sep,2001-09-23,18.45
+A,Kirehe,3,1-15 Oct,2001-10-08,26.59
+A,Kirehe,4,16-31 Oct,2001-10-24,7.28
+A,Kirehe,5,After 31 Oct,2001-11-10,8.99
+A,Kirehe,6,Other season,,25.72
+A,Ngoma,0,Before 1 Sep,2001-08-25,2.05
+A,Ngoma,1,1-15 Sep,2001-09-08,25.79
+A,Ngoma,2,16-30 Sep,2001-09-23,20.97
+A,Ngoma,3,1-15 Oct,2001-10-08,17.78
+A,Ngoma,4,16-31 Oct,2001-10-24,1.51
+A,Ngoma,5,After 31 Oct,2001-11-10,3.62
+A,Ngoma,6,Other season,,28.28
+A,Bugesera,0,Before 1 Sep,2001-08-25,1.74
+A,Bugesera,1,1-15 Sep,2001-09-08,9.63
+A,Bugesera,2,16-30 Sep,2001-09-23,17.44
+A,Bugesera,3,1-15 Oct,2001-10-08,34.43
+A,Bugesera,4,16-31 Oct,2001-10-24,11.77
+A,Bugesera,5,After 31 Oct,2001-11-10,5.79
+A,Bugesera,6,Other season,,19.19
+A,National,0,Before 1 Sep,2001-08-25,10.93
+A,National,1,1-15 Sep,2001-09-08,18.84
+A,National,2,16-30 Sep,2001-09-23,17.77
+A,National,3,1-15 Oct,2001-10-08,17.84
+A,National,4,16-31 Oct,2001-10-24,5.52
+A,National,5,After 31 Oct,2001-11-10,7.92
+A,National,6,Other season,,21.18
+B,Nyarugenge,0,Before Jan,2000-12-20,0.85
+B,Nyarugenge,1,1-15 Jan,2001-01-08,0.78
+B,Nyarugenge,2,16-31 Jan,2001-01-24,0.43
+B,Nyarugenge,3,1-15 Feb,2001-02-08,8.82
+B,Nyarugenge,4,16-28 Feb,2001-02-22,24.06
+B,Nyarugenge,5,1-15 Mar,2001-03-08,29.48
+B,Nyarugenge,6,16-31 Mar,2001-03-24,0.0
+B,Nyarugenge,7,After 31 Mar,2001-04-10,3.78
+B,Nyarugenge,8,Other season,,31.8
+B,Gasabo,0,Before Jan,2000-12-20,4.44
+B,Gasabo,1,1-15 Jan,2001-01-08,11.3
+B,Gasabo,2,16-31 Jan,2001-01-24,3.84
+B,Gasabo,3,1-15 Feb,2001-02-08,24.46
+B,Gasabo,4,16-28 Feb,2001-02-22,9.2
+B,Gasabo,5,1-15 Mar,2001-03-08,6.41
+B,Gasabo,6,16-31 Mar,2001-03-24,2.3
+B,Gasabo,7,After 31 Mar,2001-04-10,2.25
+B,Gasabo,8,Other season,,35.8
+B,Kicukiro,0,Before Jan,2000-12-20,6.0
+B,Kicukiro,1,1-15 Jan,2001-01-08,1.57
+B,Kicukiro,2,16-31 Jan,2001-01-24,3.16
+B,Kicukiro,3,1-15 Feb,2001-02-08,24.55
+B,Kicukiro,4,16-28 Feb,2001-02-22,10.11
+B,Kicukiro,5,1-15 Mar,2001-03-08,9.18
+B,Kicukiro,6,16-31 Mar,2001-03-24,2.62
+B,Kicukiro,7,After 31 Mar,2001-04-10,0.0
+B,Kicukiro,8,Other season,,42.81
+B,Nyanza,0,Before Jan,2000-12-20,7.48
+B,Nyanza,1,1-15 Jan,2001-01-08,5.18
+B,Nyanza,2,16-31 Jan,2001-01-24,3.54
+B,Nyanza,3,1-15 Feb,2001-02-08,33.4
+B,Nyanza,4,16-28 Feb,2001-02-22,13.57
+B,Nyanza,5,1-15 Mar,2001-03-08,6.6
+B,Nyanza,6,16-31 Mar,2001-03-24,2.4
+B,Nyanza,7,After 31 Mar,2001-04-10,2.49
+B,Nyanza,8,Other season,,25.34
+B,Gisagara,0,Before Jan,2000-12-20,3.46
+B,Gisagara,1,1-15 Jan,2001-01-08,2.76
+B,Gisagara,2,16-31 Jan,2001-01-24,2.4
+B,Gisagara,3,1-15 Feb,2001-02-08,22.42
+B,Gisagara,4,16-28 Feb,2001-02-22,23.49
+B,Gisagara,5,1-15 Mar,2001-03-08,5.84
+B,Gisagara,6,16-31 Mar,2001-03-24,0.42
+B,Gisagara,7,After 31 Mar,2001-04-10,1.96
+B,Gisagara,8,Other season,,37.26
+B,Nyaruguru,0,Before Jan,2000-12-20,10.29
+B,Nyaruguru,1,1-15 Jan,2001-01-08,4.96
+B,Nyaruguru,2,16-31 Jan,2001-01-24,3.79
+B,Nyaruguru,3,1-15 Feb,2001-02-08,15.4
+B,Nyaruguru,4,16-28 Feb,2001-02-22,11.98
+B,Nyaruguru,5,1-15 Mar,2001-03-08,9.73
+B,Nyaruguru,6,16-31 Mar,2001-03-24,5.8
+B,Nyaruguru,7,After 31 Mar,2001-04-10,13.43
+B,Nyaruguru,8,Other season,,24.62
+B,Huye,0,Before Jan,2000-12-20,6.98
+B,Huye,1,1-15 Jan,2001-01-08,5.06
+B,Huye,2,16-31 Jan,2001-01-24,4.21
+B,Huye,3,1-15 Feb,2001-02-08,22.69
+B,Huye,4,16-28 Feb,2001-02-22,14.54
+B,Huye,5,1-15 Mar,2001-03-08,5.6
+B,Huye,6,16-31 Mar,2001-03-24,2.72
+B,Huye,7,After 31 Mar,2001-04-10,4.03
+B,Huye,8,Other season,,34.17
+B,Nyamagabe,0,Before Jan,2000-12-20,6.67
+B,Nyamagabe,1,1-15 Jan,2001-01-08,6.59
+B,Nyamagabe,2,16-31 Jan,2001-01-24,4.71
+B,Nyamagabe,3,1-15 Feb,2001-02-08,11.55
+B,Nyamagabe,4,16-28 Feb,2001-02-22,19.67
+B,Nyamagabe,5,1-15 Mar,2001-03-08,12.18
+B,Nyamagabe,6,16-31 Mar,2001-03-24,8.73
+B,Nyamagabe,7,After 31 Mar,2001-04-10,6.72
+B,Nyamagabe,8,Other season,,23.17
+B,Ruhango,0,Before Jan,2000-12-20,7.37
+B,Ruhango,1,1-15 Jan,2001-01-08,9.29
+B,Ruhango,2,16-31 Jan,2001-01-24,2.74
+B,Ruhango,3,1-15 Feb,2001-02-08,25.53
+B,Ruhango,4,16-28 Feb,2001-02-22,18.39
+B,Ruhango,5,1-15 Mar,2001-03-08,2.85
+B,Ruhango,6,16-31 Mar,2001-03-24,0.97
+B,Ruhango,7,After 31 Mar,2001-04-10,3.83
+B,Ruhango,8,Other season,,29.04
+B,Muhanga,0,Before Jan,2000-12-20,9.96
+B,Muhanga,1,1-15 Jan,2001-01-08,4.66
+B,Muhanga,2,16-31 Jan,2001-01-24,2.32
+B,Muhanga,3,1-15 Feb,2001-02-08,14.56
+B,Muhanga,4,16-28 Feb,2001-02-22,16.62
+B,Muhanga,5,1-15 Mar,2001-03-08,5.93
+B,Muhanga,6,16-31 Mar,2001-03-24,2.74
+B,Muhanga,7,After 31 Mar,2001-04-10,4.71
+B,Muhanga,8,Other season,,38.49
+B,Kamonyi,0,Before Jan,2000-12-20,7.75
+B,Kamonyi,1,1-15 Jan,2001-01-08,5.54
+B,Kamonyi,2,16-31 Jan,2001-01-24,4.4
+B,Kamonyi,3,1-15 Feb,2001-02-08,28.19
+B,Kamonyi,4,16-28 Feb,2001-02-22,14.47
+B,Kamonyi,5,1-15 Mar,2001-03-08,4.9
+B,Kamonyi,6,16-31 Mar,2001-03-24,0.36
+B,Kamonyi,7,After 31 Mar,2001-04-10,2.7
+B,Kamonyi,8,Other season,,31.7
+B,Karongi,0,Before Jan,2000-12-20,11.27
+B,Karongi,1,1-15 Jan,2001-01-08,3.27
+B,Karongi,2,16-31 Jan,2001-01-24,3.64
+B,Karongi,3,1-15 Feb,2001-02-08,19.47
+B,Karongi,4,16-28 Feb,2001-02-22,13.66
+B,Karongi,5,1-15 Mar,2001-03-08,5.18
+B,Karongi,6,16-31 Mar,2001-03-24,2.76
+B,Karongi,7,After 31 Mar,2001-04-10,3.44
+B,Karongi,8,Other season,,37.3
+B,Rutsiro,0,Before Jan,2000-12-20,10.79
+B,Rutsiro,1,1-15 Jan,2001-01-08,5.68
+B,Rutsiro,2,16-31 Jan,2001-01-24,2.74
+B,Rutsiro,3,1-15 Feb,2001-02-08,9.98
+B,Rutsiro,4,16-28 Feb,2001-02-22,15.3
+B,Rutsiro,5,1-15 Mar,2001-03-08,11.1
+B,Rutsiro,6,16-31 Mar,2001-03-24,2.89
+B,Rutsiro,7,After 31 Mar,2001-04-10,1.5
+B,Rutsiro,8,Other season,,40.01
+B,Rubavu,0,Before Jan,2000-12-20,6.55
+B,Rubavu,1,1-15 Jan,2001-01-08,3.55
+B,Rubavu,2,16-31 Jan,2001-01-24,5.34
+B,Rubavu,3,1-15 Feb,2001-02-08,13.9
+B,Rubavu,4,16-28 Feb,2001-02-22,11.55
+B,Rubavu,5,1-15 Mar,2001-03-08,13.84
+B,Rubavu,6,16-31 Mar,2001-03-24,10.58
+B,Rubavu,7,After 31 Mar,2001-04-10,16.53
+B,Rubavu,8,Other season,,18.16
+B,Nyabihu,0,Before Jan,2000-12-20,6.15
+B,Nyabihu,1,1-15 Jan,2001-01-08,4.24
+B,Nyabihu,2,16-31 Jan,2001-01-24,1.94
+B,Nyabihu,3,1-15 Feb,2001-02-08,9.82
+B,Nyabihu,4,16-28 Feb,2001-02-22,26.64
+B,Nyabihu,5,1-15 Mar,2001-03-08,14.17
+B,Nyabihu,6,16-31 Mar,2001-03-24,9.55
+B,Nyabihu,7,After 31 Mar,2001-04-10,15.83
+B,Nyabihu,8,Other season,,11.66
+B,Ngororero,0,Before Jan,2000-12-20,12.54
+B,Ngororero,1,1-15 Jan,2001-01-08,5.08
+B,Ngororero,2,16-31 Jan,2001-01-24,5.02
+B,Ngororero,3,1-15 Feb,2001-02-08,17.94
+B,Ngororero,4,16-28 Feb,2001-02-22,17.8
+B,Ngororero,5,1-15 Mar,2001-03-08,9.38
+B,Ngororero,6,16-31 Mar,2001-03-24,0.86
+B,Ngororero,7,After 31 Mar,2001-04-10,3.52
+B,Ngororero,8,Other season,,27.86
+B,Rusizi,0,Before Jan,2000-12-20,6.13
+B,Rusizi,1,1-15 Jan,2001-01-08,0.48
+B,Rusizi,2,16-31 Jan,2001-01-24,1.01
+B,Rusizi,3,1-15 Feb,2001-02-08,8.64
+B,Rusizi,4,16-28 Feb,2001-02-22,19.28
+B,Rusizi,5,1-15 Mar,2001-03-08,9.48
+B,Rusizi,6,16-31 Mar,2001-03-24,2.5
+B,Rusizi,7,After 31 Mar,2001-04-10,1.23
+B,Rusizi,8,Other season,,51.26
+B,Nyamasheke,0,Before Jan,2000-12-20,10.3
+B,Nyamasheke,1,1-15 Jan,2001-01-08,0.74
+B,Nyamasheke,2,16-31 Jan,2001-01-24,1.62
+B,Nyamasheke,3,1-15 Feb,2001-02-08,10.19
+B,Nyamasheke,4,16-28 Feb,2001-02-22,16.39
+B,Nyamasheke,5,1-15 Mar,2001-03-08,8.94
+B,Nyamasheke,6,16-31 Mar,2001-03-24,3.24
+B,Nyamasheke,7,After 31 Mar,2001-04-10,7.27
+B,Nyamasheke,8,Other season,,41.3
+B,Rulindo,0,Before Jan,2000-12-20,7.47
+B,Rulindo,1,1-15 Jan,2001-01-08,6.33
+B,Rulindo,2,16-31 Jan,2001-01-24,5.74
+B,Rulindo,3,1-15 Feb,2001-02-08,9.91
+B,Rulindo,4,16-28 Feb,2001-02-22,12.0
+B,Rulindo,5,1-15 Mar,2001-03-08,17.7
+B,Rulindo,6,16-31 Mar,2001-03-24,7.01
+B,Rulindo,7,After 31 Mar,2001-04-10,6.25
+B,Rulindo,8,Other season,,27.59
+B,Gakenke,0,Before Jan,2000-12-20,15.85
+B,Gakenke,1,1-15 Jan,2001-01-08,4.9
+B,Gakenke,2,16-31 Jan,2001-01-24,2.68
+B,Gakenke,3,1-15 Feb,2001-02-08,7.72
+B,Gakenke,4,16-28 Feb,2001-02-22,7.52
+B,Gakenke,5,1-15 Mar,2001-03-08,16.62
+B,Gakenke,6,16-31 Mar,2001-03-24,5.63
+B,Gakenke,7,After 31 Mar,2001-04-10,5.95
+B,Gakenke,8,Other season,,33.13
+B,Musanze,0,Before Jan,2000-12-20,8.47
+B,Musanze,1,1-15 Jan,2001-01-08,9.4
+B,Musanze,2,16-31 Jan,2001-01-24,4.6
+B,Musanze,3,1-15 Feb,2001-02-08,8.33
+B,Musanze,4,16-28 Feb,2001-02-22,12.04
+B,Musanze,5,1-15 Mar,2001-03-08,17.49
+B,Musanze,6,16-31 Mar,2001-03-24,7.17
+B,Musanze,7,After 31 Mar,2001-04-10,7.05
+B,Musanze,8,Other season,,25.46
+B,Burera,0,Before Jan,2000-12-20,7.45
+B,Burera,1,1-15 Jan,2001-01-08,9.01
+B,Burera,2,16-31 Jan,2001-01-24,5.77
+B,Burera,3,1-15 Feb,2001-02-08,19.51
+B,Burera,4,16-28 Feb,2001-02-22,7.05
+B,Burera,5,1-15 Mar,2001-03-08,11.05
+B,Burera,6,16-31 Mar,2001-03-24,14.15
+B,Burera,7,After 31 Mar,2001-04-10,9.87
+B,Burera,8,Other season,,16.14
+B,Gicumbi,0,Before Jan,2000-12-20,7.4
+B,Gicumbi,1,1-15 Jan,2001-01-08,6.63
+B,Gicumbi,2,16-31 Jan,2001-01-24,5.09
+B,Gicumbi,3,1-15 Feb,2001-02-08,9.45
+B,Gicumbi,4,16-28 Feb,2001-02-22,11.66
+B,Gicumbi,5,1-15 Mar,2001-03-08,24.39
+B,Gicumbi,6,16-31 Mar,2001-03-24,7.97
+B,Gicumbi,7,After 31 Mar,2001-04-10,4.96
+B,Gicumbi,8,Other season,,22.46
+B,Rwamagana,0,Before Jan,2000-12-20,3.92
+B,Rwamagana,1,1-15 Jan,2001-01-08,5.13
+B,Rwamagana,2,16-31 Jan,2001-01-24,1.78
+B,Rwamagana,3,1-15 Feb,2001-02-08,10.51
+B,Rwamagana,4,16-28 Feb,2001-02-22,21.2
+B,Rwamagana,5,1-15 Mar,2001-03-08,12.5
+B,Rwamagana,6,16-31 Mar,2001-03-24,3.35
+B,Rwamagana,7,After 31 Mar,2001-04-10,1.1
+B,Rwamagana,8,Other season,,40.51
+B,Nyagatare,0,Before Jan,2000-12-20,1.3
+B,Nyagatare,1,1-15 Jan,2001-01-08,0.64
+B,Nyagatare,2,16-31 Jan,2001-01-24,2.74
+B,Nyagatare,3,1-15 Feb,2001-02-08,25.46
+B,Nyagatare,4,16-28 Feb,2001-02-22,25.34
+B,Nyagatare,5,1-15 Mar,2001-03-08,11.78
+B,Nyagatare,6,16-31 Mar,2001-03-24,2.43
+B,Nyagatare,7,After 31 Mar,2001-04-10,0.62
+B,Nyagatare,8,Other season,,29.69
+B,Gatsibo,0,Before Jan,2000-12-20,1.53
+B,Gatsibo,1,1-15 Jan,2001-01-08,3.3
+B,Gatsibo,2,16-31 Jan,2001-01-24,3.14
+B,Gatsibo,3,1-15 Feb,2001-02-08,16.2
+B,Gatsibo,4,16-28 Feb,2001-02-22,15.0
+B,Gatsibo,5,1-15 Mar,2001-03-08,14.44
+B,Gatsibo,6,16-31 Mar,2001-03-24,3.39
+B,Gatsibo,7,After 31 Mar,2001-04-10,2.21
+B,Gatsibo,8,Other season,,40.79
+B,Kayonza,0,Before Jan,2000-12-20,2.2
+B,Kayonza,1,1-15 Jan,2001-01-08,7.34
+B,Kayonza,2,16-31 Jan,2001-01-24,2.65
+B,Kayonza,3,1-15 Feb,2001-02-08,13.48
+B,Kayonza,4,16-28 Feb,2001-02-22,16.64
+B,Kayonza,5,1-15 Mar,2001-03-08,17.51
+B,Kayonza,6,16-31 Mar,2001-03-24,5.8
+B,Kayonza,7,After 31 Mar,2001-04-10,2.27
+B,Kayonza,8,Other season,,32.12
+B,Kirehe,0,Before Jan,2000-12-20,5.88
+B,Kirehe,1,1-15 Jan,2001-01-08,5.59
+B,Kirehe,2,16-31 Jan,2001-01-24,3.07
+B,Kirehe,3,1-15 Feb,2001-02-08,16.63
+B,Kirehe,4,16-28 Feb,2001-02-22,15.93
+B,Kirehe,5,1-15 Mar,2001-03-08,10.81
+B,Kirehe,6,16-31 Mar,2001-03-24,1.76
+B,Kirehe,7,After 31 Mar,2001-04-10,0.51
+B,Kirehe,8,Other season,,39.83
+B,Ngoma,0,Before Jan,2000-12-20,2.15
+B,Ngoma,1,1-15 Jan,2001-01-08,2.5
+B,Ngoma,2,16-31 Jan,2001-01-24,1.7
+B,Ngoma,3,1-15 Feb,2001-02-08,11.73
+B,Ngoma,4,16-28 Feb,2001-02-22,22.45
+B,Ngoma,5,1-15 Mar,2001-03-08,10.93
+B,Ngoma,6,16-31 Mar,2001-03-24,1.52
+B,Ngoma,7,After 31 Mar,2001-04-10,1.17
+B,Ngoma,8,Other season,,45.85
+B,Bugesera,0,Before Jan,2000-12-20,1.5
+B,Bugesera,1,1-15 Jan,2001-01-08,3.78
+B,Bugesera,2,16-31 Jan,2001-01-24,2.57
+B,Bugesera,3,1-15 Feb,2001-02-08,12.14
+B,Bugesera,4,16-28 Feb,2001-02-22,23.96
+B,Bugesera,5,1-15 Mar,2001-03-08,24.74
+B,Bugesera,6,16-31 Mar,2001-03-24,4.86
+B,Bugesera,7,After 31 Mar,2001-04-10,0.61
+B,Bugesera,8,Other season,,25.85
+B,National,0,Before Jan,2000-12-20,7.08
+B,National,1,1-15 Jan,2001-01-08,4.91
+B,National,2,16-31 Jan,2001-01-24,3.35
+B,National,3,1-15 Feb,2001-02-08,16.41
+B,National,4,16-28 Feb,2001-02-22,16.39
+B,National,5,1-15 Mar,2001-03-08,11.36
+B,National,6,16-31 Mar,2001-03-24,4.1
+B,National,7,After 31 Mar,2001-04-10,4.39
+B,National,8,Other season,,32.01
