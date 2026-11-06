@@ -30,7 +30,7 @@ python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\
 pip install -r requirements.txt
 python scripts/prepare_sas.py          
 python scripts/fetch_rainfall.py       #writes to data/rainfall_daily.csv.gz
-streamlit run app.py
+    streamlit run app.py
 ```
 The fetch script pauses between districts because Open-Meteo weights long-history requests. If it reports rate limiting, just rerun it later; finished districts are skipped.
 

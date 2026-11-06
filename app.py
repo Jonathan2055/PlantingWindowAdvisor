@@ -23,7 +23,7 @@ YIELD_CROP = {"Maize": "Maize", "Beans": "Bean", "Irish potato": "Irish potato"}
 st.set_page_config(page_title="Planting Window Advisor - Rwanda", page_icon="🌱", layout="wide")
 
 
-# data
+#  data
 @st.cache_data
 def load_static():
     return (pd.read_csv(DATA / "districts.csv"), pd.read_csv(DATA / "crop_assumptions.csv"),
@@ -84,7 +84,7 @@ st.caption("Decision support from historical rainfall patterns and NISR survey d
            "yield. Check local advice from your agronomist, cooperative or Meteo Rwanda.")
 
 tab_now, tab_win, tab_map, tab_sas, tab_method = st.tabs(
-    ["Advice now", "Planting window", "District map", "Farmer's practice (SAS)", "Method & limits"])
+    ["Advice now", "Planting window", "District map", "Farmers' practice (SAS)", "Method & limits"])
 
 #  shared computations
 if have_rain:
@@ -106,7 +106,7 @@ def show(fig):
 
 
 def need_rain():
-    st.warning("Rainfall data not found. Run `python scripts/fetch_rainfall.py` once (takes in about 10 minutes), then "
+    st.warning("Rainfall data not found. Run `python scripts/fetch_rainfall.py` once (takes ~10 minutes), then "
                "restart the app. See the README.")
 
 
@@ -186,11 +186,11 @@ with tab_win:
         fig.add_trace(go.Bar(x=bars["mid_date"], y=bars["pct"], name="% of farmers' sowing (SAS)",
                              marker_color="rgba(230,170,60,0.65)", width=11 * 86400000 if season == "A" else 10 * 86400000,
                              hovertext=bars["period"]), secondary_y=True)
-        fig.add_trace(go.Scatter(x=curve["date"], y=100 * curve["p_cycle_rain"], name="Enough rain over crop cycle",
+        fig.add_trace(go.Scatter(x=curve["date"], y=100 * curve["p_cycle_rain"],
+                                 name="Enough rain over the whole crop cycle (assumption-based)",
                                  line=dict(color="lightskyblue", dash="dot")), secondary_y=False)
-        fig.add_trace(go.Scatter(x=curve["date"], y=100 * curve["p_establish"], name="Rain to establish seedlings",
-                                 line=dict(color="steelblue", dash="dot")), secondary_y=False)
-        fig.add_trace(go.Scatter(x=curve["date"], y=100 * curve["p_all"], name="All conditions met",
+        fig.add_trace(go.Scatter(x=curve["date"], y=100 * curve["p_start"],
+                                 name="Seedlings get established (enough rain, no long dry spell)",
                                  line=dict(color="darkgreen", width=4)), secondary_y=False)
         if win:
             fig.add_vrect(x0=win[0], x1=win[1], fillcolor="green", opacity=0.12, line_width=0,
@@ -209,12 +209,13 @@ with tab_win:
         show(fig)
         if win:
             st.success(f"In {int(curve['n_years'].max())} past years, planting {crop.lower()} between "
-                       f"**{win[0]:%d %b} and {win[1]:%d %b}** met all three rainfall conditions in about "
-                       f"**{100 * win[2]:.0f}%** of years in {district}.")
+                       f"**{win[0]:%d %b} and {win[1]:%d %b}** gave seedlings enough rain to establish, with no long "
+                       f"dry spell, in up to **{100 * win[2]:.0f}%** of years in {district}.")
         st.caption(f"{other:.0f}% of the sowing reported in SAS falls in 'other season' and is not shown. SAS bars "
-                   "sit at the mid-point of each reporting period. 'All conditions met' = enough rain to establish "
-                   "seedlings, no long dry spell right after planting, and enough rain across the crop cycle. "
-                   "Adjust thresholds in the sidebar.")
+                   "sit at the mid-point of each reporting period. 'Seedlings get established' = at least the set amount "
+                   "of rain in the first 14 days and no long dry spell in the first 21 days. The best window is based on "
+                   "this. The cycle-rain line depends on an assumed water need, so it is shown for information only; "
+                   "adjust thresholds in the sidebar.")
 
 #  tab 3: map
 with tab_map:
@@ -311,8 +312,10 @@ with tab_method:
 spell longer than {dry_spell_max} days within the next 21 days. A day under 1 mm counts as dry.
 
 **Planting suitability**: for each candidate planting date and each past year we check (1) at least {est_mm} mm in the
-first 14 days, (2) no dry spell longer than {dry_max} days in the first 21 days, and (3) at least {cycle_mm} mm over a
-{cycle_days}-day crop cycle. The curve is the share of past years meeting these conditions.
+first 14 days and (2) no dry spell longer than {dry_max} days in the first 21 days. The green curve is the share of
+past years meeting both, and the best window is where it is highest. We also show, for information, how often at least
+{cycle_mm} mm fell over a {cycle_days}-day crop cycle; that line depends on an assumed water need, so it is not used for
+the window.
 
 **Limits**
 - Crop cycle length and water need are assumptions, not official values; edit them in the sidebar.
@@ -321,3 +324,4 @@ first 14 days, (2) no dry spell longer than {dry_max} days in the first 21 days,
   cultivated area, so the survey mainly describes smallholders.
 - Season windows are approximations (Season A: onset search 15 Aug-30 Nov; Season B: 1 Jan-30 Apr).
 """)
+    

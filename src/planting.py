@@ -115,7 +115,7 @@ def suitability(s, season, rule=PlantRule(), step_days=5, years=None):
     cands = pd.date_range(_ts(REF_YEAR, start_md), _ts(REF_YEAR, end_md), freq=f"{step_days}D")
     out = []
     for c in cands:
-        est = dry = cyc = allok = n = 0
+        est = dry = cyc = allok = start = n = 0
         for y in yrs:
             d0 = _ts(y, (c.month, c.day))
             if d0 + pd.Timedelta(days=rule.cycle_days) > last or d0 < s.index.min():
@@ -125,20 +125,20 @@ def suitability(s, season, rule=PlantRule(), step_days=5, years=None):
             seg = s.loc[d0:d0 + pd.Timedelta(days=rule.dry_window - 1)].values
             d_ok = longest_run(seg < rule.dry_day_mm) <= rule.dry_max
             c_ok = s.loc[d0:d0 + pd.Timedelta(days=rule.cycle_days - 1)].sum() >= rule.cycle_mm
-            est += e_ok; dry += d_ok; cyc += c_ok; allok += (e_ok and d_ok and c_ok)
+            est += e_ok; dry += d_ok; cyc += c_ok; allok += (e_ok and d_ok and c_ok); start += (e_ok and d_ok)
         if n:
             out.append({"date": c, "p_establish": est / n, "p_no_long_dry": dry / n,
-                        "p_cycle_rain": cyc / n, "p_all": allok / n, "n_years": n})
+                        "p_cycle_rain": cyc / n, "p_all": allok / n, "p_start": start / n, "n_years": n})
     return pd.DataFrame(out)
 
 
-def best_window(curve, tol=0.10):
+def best_window(curve, tol=0.10, col="p_start"):
     """Contiguous run of candidate dates within `tol` of the best success share."""
     if curve.empty:
         return None
-    best = curve["p_all"].max()
-    ok = (curve["p_all"] >= best - tol).values
-    i = int(np.argmax(curve["p_all"].values))
+    best = curve[col].max()
+    ok = (curve[col] >= best - tol).values
+    i = int(np.argmax(curve[col].values))
     lo = hi = i
     while lo > 0 and ok[lo - 1]:
         lo -= 1
