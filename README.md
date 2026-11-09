@@ -38,6 +38,10 @@ The fetch script pauses between districts because Open-Meteo weights long-histor
 
 https://planting-window-advisor.onrender.com/
 
+## Demo Video
+
+https://drive.google.com/file/d/1kR90wL7tJstbYxqk9Lwjim5TB1n1H4eV/view?usp=drive_link
+
 ## Method (short)
 - **Rainfall onset:** first day where 3-day rain ≥ 20 mm and no dry spell longer than 7 days (days under 1 mm) in the following 21 days. Adjustable.
 
